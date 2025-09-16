@@ -38,5 +38,12 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.2.4"
+  },
+  "scripts": {
+    "biome": "biome check",
+    "fix": "biome check --fix"
   }
 }

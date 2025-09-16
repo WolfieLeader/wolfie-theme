@@ -688,9 +688,7 @@
     },
     {
       "scope": ["keyword.operator.address.go", "keyword.operator.pointer.go"],
-      "settings": {
-        "foreground": "#43AAF9"
-      }
+      "settings": { "foreground": "#43AAF9" }
     },
     {
       "scope": ["keyword.channel.go"],
