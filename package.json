@@ -1,0 +1,42 @@
+{
+  "name": "wolfie-theme",
+  "displayName": "Wolfie Theme",
+  "description": "Wolfie theme for VS Code",
+  "version": "0.0.1",
+  "publisher": "WolfieLeader",
+  "license": "MIT",
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#1b1f23",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WolfieLeader/wolfie-theme"
+  },
+  "bugs": {
+    "url": "https://github.com/WolfieLeader/wolfie-theme/issues"
+  },
+  "engines": {
+    "vscode": "^1.43.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "GitHub Dark Default",
+        "uiTheme": "vs-dark",
+        "path": "./themes/theme.json"
+      }
+    ]
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
